@@ -1,0 +1,17 @@
+[package]
+name = "burn-shard"
+description = "Tensors placed over a group of devices, with the placement rule of each op"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+repository = "https://github.com/tracel-ai/burn/tree/main/crates/burn-shard"
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+burn-tensor = { workspace = true, features = ["std"] }
+
+[dev-dependencies]
+burn-tensor = { workspace = true, features = ["std", "flex", "autodiff"] }

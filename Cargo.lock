@@ -1429,6 +1429,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "burn-shard"
+version = "0.22.0-pre.4"
+dependencies = [
+ "burn-tensor",
+]
+
+[[package]]
 name = "burn-signal"
 version = "0.22.0-pre.4"
 dependencies = [
